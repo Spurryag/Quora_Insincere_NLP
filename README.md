@@ -5,7 +5,7 @@ Detect and classify questions scraped from the Quora Website as being toxic or n
 * Test data: 56,370 obs
 
 # My Approach
-Use a Word embedding model (GloVe) and apply a bidirectional LSTM to classify a question as being insincere/toxic, after applying nlp data wrangling techniques such as "stop word removal" among others.
+Use a Word embedding model (GloVe) and apply a bidirectional LSTM to classify a question as being insincere/toxic, after applying nlp data wrangling techniques such as "stop word removal", among others.
 
 # My Result
 The F1 score obtained was around 0.547 with the selected LSTM architecture.
